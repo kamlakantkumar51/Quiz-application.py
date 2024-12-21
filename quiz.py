@@ -1,6 +1,6 @@
 class MahabharataQuiz:
 
-    def _init_(self):
+    def __init__(self):
         self.questions = [
             {
                 'question': 'Who was the eldest Pandava?',
@@ -94,6 +94,6 @@ class MahabharataQuiz:
         else:
             print("Better luck next time!")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     quiz = MahabharataQuiz()
     quiz.run_quiz()
